@@ -7,49 +7,54 @@
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
   
-   //Carta 1
+   //Carta 1  
 
-  char Estado1  = 'A';
-  char Cidade1 [50] = "Campo Belo";
-  char Codigo1 [4] = "A01";
-  int Populacao1 = 60000;
-  float Area1 = 150.55f;
-  float PIB1 = 100.00f;
-  int NumerosPontosTuristicos1 = 5;
+   char Carta = '1';
+   char Estado = 'A';
+   char Codigo [5] = "A01";
+   char Cidade [50] = "Sao Paulo";
+   float Populacao = 12325000;
+   float Area = 1521.11;
+   float PIB = 699.28;
+   int Pontos_Turisticos = 50;
+   float Densidade = 8102.47;
+   float PIB_per_capita = 56724.32;
 
    //Carta 2
 
-  char Estado2 = 'B';
-  char Cidade2 [50] = "São Paulo";
-  char Codigo2 [4] = "A02";
-  int Populacao2 = 500000;
-  float Area2 = 5550.50f;
-  float PIB2 = 950.55f;
-  int NumerosPontosTuristicos2 = 50;
+   char Carta = '2';
+   char Estado = 'B';
+   char Codigo [5] = "B02";
+   char Cidade [50] = "Rio_de_Janeiro";
+   float Populacao = 6748000;
+   float Area = 1200.25;
+   float PIB = 300.50;
+   int Pontos_Turisticos = 30;
+   float Densidade = 5622.24;
+   float PIB_per_capita = 44532.91;
+    
+   printf("Carta: %c", Carta);
+   printf("Estado: %c", Estado);
+   printf("Código: %s", Codigo);
+   printf("Nome da Cidade: %s", Cidade);
+   printf("População: %f", Populacao);
+   printf("Área: %2.f", Area);
+   printf("PIB: %2.f", PIB);
+   printf("Número de pontos turísticos: %2.f", Pontos_Turisticos);
+   printf("Densidade Populacional: %2.f", Densidade);
+   printf("PIB per Capita: %2.f", PIB_per_capita);
 
-  printf("Carta 1 \n:");
-  printf("Estado %c\n", Estado1);
-  printf("Cidade %s\n", Cidade1);
-  printf("Codigo %s\n", Codigo1);
-  printf("População %d\n", Populacao1);
-  printf("Área %.2f\n", Area1);
-  printf("PIB %.2f\n", PIB1);
-  printf("Números de pontos turísticos %d\n", NumerosPontosTuristicos1);
-
-  printf("Carta 2 \n:");
-  printf("Estado %c\n", Estado2);
-  printf("Cidade %s\n", Cidade2);
-  printf("Codigo %s\n", Codigo2);
-  printf("População %d\n", Populacao2);
-  printf("Área %.2f\n", Area2);
-  printf("PIB %.2f\n", PIB2);
-  printf("Números de pontos turísticos %d\n", NumerosPontosTuristicos2);
-
+   
+    
 
 
-  // Área para entrada de dados
 
-  // Área para exibição dos dados da cidade
+   
 
-return 0;
-} 
+
+   // Área para entrada de dados
+
+   // Área para exibição dos dados da cidade
+
+   return 0;
+   } 
