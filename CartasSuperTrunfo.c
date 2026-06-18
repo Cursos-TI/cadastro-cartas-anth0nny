@@ -44,7 +44,7 @@ int main() {
    printf("Densidade Populacional: %2.f", Densidade);
    printf("PIB per Capita: %2.f", PIB_per_capita);
 
-   
+
     
 
 
